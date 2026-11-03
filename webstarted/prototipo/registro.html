@@ -1,0 +1,348 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Únete a la Talent Network · Webstarted</title>
+  <meta name="description" content="Crea tu perfil verificado una sola vez y deja que las startups de EE. UU. te encuentren.">
+  <meta name="theme-color" content="#15172c">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="registro.css">
+</head>
+<body>
+<!--SPRITE-->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="logo-mark" viewBox="-30 -30 230 190">
+    <polyline points="0,65 42.5,130 85,65 127.5,130 170,65" fill="none" stroke="currentColor" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
+    <g fill="currentColor">
+      <circle cx="42.5" cy="0" r="28"/><circle cx="127.5" cy="0" r="28"/>
+      <circle cx="0" cy="65" r="28"/><circle cx="85" cy="65" r="28"/><circle cx="170" cy="65" r="28"/>
+      <circle cx="42.5" cy="130" r="28"/><circle cx="127.5" cy="130" r="28"/>
+    </g>
+  </symbol>
+    <symbol id="i-profile" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10.5" r="2.5"/><path d="M5.8 17c.7-1.9 1.9-2.8 3.2-2.8s2.5.9 3.2 2.8M14.5 9.5h3.5M14.5 13h3.5"/></symbol>
+    <symbol id="i-video" viewBox="0 0 24 24"><rect x="2.5" y="6" width="13" height="12" rx="2"/><path d="M15.5 10.5 21 7.5v9l-5.5-3z"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="M8 7 3 12l5 5M16 7l5 5-5 5M13.5 5l-3 14"/></symbol>
+    <symbol id="i-meet" viewBox="0 0 24 24"><circle cx="8" cy="8.5" r="3"/><circle cx="16.8" cy="9.5" r="2.4"/><path d="M2.5 19.5c.8-3 3-4.6 5.5-4.6s4.7 1.6 5.5 4.6M14.6 14.7c.7-.4 1.4-.5 2.2-.5 2.2 0 3.9 1.3 4.7 3.9"/></symbol>
+    <symbol id="i-usd" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M14.9 9.3c-.5-1.1-1.6-1.7-2.9-1.7-1.6 0-2.9.9-2.9 2.2 0 3 6 1.6 6 4.6 0 1.3-1.3 2.3-3.1 2.3-1.4 0-2.6-.7-3.1-1.8M12 5.8v1.8M12 16.7v1.5"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+    <symbol id="i-login" viewBox="0 0 24 24"><path d="M10 17l5-5-5-5M15 12H3M14 4h5a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 15.5V4M7 9l5-5 5 5M4 15v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4"/></symbol>
+    <symbol id="i-badge" viewBox="0 0 24 24"><path d="M12 3l7 3v5.5c0 4.4-3 8-7 9.5-4-1.5-7-5.1-7-9.5V6z"/><path d="M8.8 12.2l2.2 2.2 4.4-4.6"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7M3 12.5h18"/></symbol>
+    <symbol id="i-academy" viewBox="0 0 24 24"><path d="M2.5 9 12 4.5 21.5 9 12 13.5z"/><path d="M6.5 11v4.5c1.5 1.4 3.3 2 5.5 2s4-.6 5.5-2V11M21.5 9v5"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-9l-5 4v-4H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></symbol>
+    <symbol id="i-save" viewBox="0 0 24 24"><path d="M12 7v5l3 2"/><circle cx="12" cy="12" r="9"/></symbol>
+    <symbol id="i-rec" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.5" fill="currentColor"/></symbol>
+    <symbol id="i-stop" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2" fill="currentColor"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+    <symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 6v12M15 6v12"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l10-6.5z"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></symbol>
+</svg>
+<!--/SPRITE-->
+<a class="skip" href="#main">Saltar al formulario</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="webstarted Talent Network, inicio">
+      <svg class="brand-mark" viewBox="-30 -30 230 190" aria-hidden="true"><use href="#logo-mark"/></svg>
+      <span class="brand-word">webstarted</span>
+      <span class="brand-sub">Talent<br>Network</span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="index.html" style="--dot:#fff">Inicio</a>
+      <a href="index.html#vacantes" style="--dot:var(--line-jobs)">Vacantes</a>
+      <a href="registro.html" aria-current="page" style="--dot:var(--line-tn)">Talent Network</a>
+      <a href="index.html#academy" style="--dot:var(--line-academy)">Academy</a>
+      <a href="index.html#comunidad" style="--dot:var(--line-community)">Comunidad</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn--ghost" href="#login" data-go="login"><svg class="ico" aria-hidden="true"><use href="#i-login"/></svg>Iniciar sesión</a>
+      <a class="btn btn--line" href="registro.html" data-go="1">Registrarse</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+  <section class="reg-band">
+    <div class="wrap">
+      <h1>Únete a la Talent Network en 3&nbsp;minutos</h1>
+      <p>Crea tu perfil verificado una sola vez y deja que las startups de EE.&nbsp;UU. te encuentren.</p>
+    </div>
+  </section>
+
+  <div class="wrap reg-layout">
+    <!-- ============ BRANCH LINE ============ -->
+    <nav class="branch" aria-label="Pasos del registro">
+      <div class="b-track" aria-hidden="true"><span class="b-fill"></span></div>
+      <div class="b-train" aria-hidden="true"><span class="b-dot"></span></div>
+      <ol class="b-list">
+        <li class="b-st" data-step="1">
+          <button type="button" class="b-btn" data-go="1">
+            <span class="b-roundel" aria-hidden="true"><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg></span>
+            <span class="b-text"><span class="b-name">Datos básicos</span><span class="b-sub">Nombre, email, país y área</span></span>
+          </button>
+        </li>
+        <li class="b-st" data-step="2">
+          <button type="button" class="b-btn" data-go="2">
+            <span class="b-roundel" aria-hidden="true"><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg></span>
+            <span class="b-text"><span class="b-name">Experiencia</span><span class="b-sub">Seniority, stack, CV y GitHub</span></span>
+          </button>
+        </li>
+        <li class="b-st" data-step="3">
+          <button type="button" class="b-btn" data-go="3">
+            <span class="b-roundel" aria-hidden="true"><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg></span>
+            <span class="b-text"><span class="b-name">Video en inglés</span><span class="b-sub">30 a 60 segundos, desde tu cámara o con un video que ya tengas</span></span>
+          </button>
+        </li>
+        <li class="b-st b-term" data-step="4">
+          <div class="b-btn is-static">
+            <span class="b-roundel" aria-hidden="true"><svg class="ico" aria-hidden="true"><use href="#i-badge"/></svg></span>
+            <span class="b-text"><span class="b-name">Perfil verificado</span><span class="b-sub">Si falta algo, te decimos exactamente qué. Nunca un mensaje genérico.</span></span>
+          </div>
+        </li>
+      </ol>
+
+      <div class="b-after">
+        <p class="b-after-title">Después, en la línea principal</p>
+        <ol class="b-next">
+          <li>Tech fit interview</li>
+          <li>Entrevistas con el cliente</li>
+          <li>Oferta en USD</li>
+        </ol>
+        <p class="b-after-copy">Revisamos tu video y tus datos, y si encajas con una vacante pasas a la Tech fit interview y luego a las entrevistas con el cliente.</p>
+        <a class="b-link" href="index.html#vacantes">Ver las búsquedas laborales abiertas</a>
+      </div>
+    </nav>
+
+    <!-- ============ FORM PANEL ============ -->
+    <form class="panel" id="reg" novalidate>
+      <!-- STEP 1 -->
+      <section class="step" data-step="1" aria-labelledby="s1-title">
+        <header class="step-head">
+          <p class="step-count">Paso 1 de 3</p>
+          <h2 id="s1-title" tabindex="-1">Datos básicos</h2>
+          <p class="step-lede">Solo lo esencial. Lo usamos para avisarte en qué estación está tu perfil.</p>
+        </header>
+        <div class="fields">
+          <div class="field">
+            <label for="nombre">Nombre completo</label>
+            <input id="nombre" name="nombre" type="text" autocomplete="name" placeholder="Como figura en tu CV" required>
+            <p class="err" id="nombre-err"></p>
+          </div>
+          <div class="field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" autocomplete="email" inputmode="email" placeholder="nombre@email.com" required spellcheck="false">
+            <p class="err" id="email-err"></p>
+          </div>
+          <div class="field-row">
+            <div class="field">
+              <label for="pais">País de residencia</label>
+              <div class="select">
+                <select id="pais" name="pais" autocomplete="country-name" required>
+                  <option value="">Selecciona tu país</option>
+                  <option>Argentina</option><option>Bolivia</option><option>Brasil</option><option>Chile</option>
+                  <option>Colombia</option><option>Costa Rica</option><option>Ecuador</option><option>El Salvador</option>
+                  <option>Guatemala</option><option>Honduras</option><option>México</option><option>Nicaragua</option>
+                  <option>Panamá</option><option>Paraguay</option><option>Perú</option><option>República Dominicana</option>
+                  <option>Uruguay</option><option>Venezuela</option><option>Otro país</option>
+                </select>
+              </div>
+              <p class="err" id="pais-err"></p>
+            </div>
+            <div class="field">
+              <label for="area">Área principal</label>
+              <div class="select">
+                <select id="area" name="area" required>
+                  <option value="">Selecciona tu área</option>
+                  <option value="backend">Backend &amp; Go/Python</option>
+                  <option value="frontend">Frontend</option>
+                  <option value="fullstack">Fullstack</option>
+                  <option value="ai-data">AI &amp; Data Science</option>
+                  <option value="qa">QA &amp; Automation</option>
+                  <option value="devops">DevOps &amp; Cloud</option>
+                  <option value="management">Management / Leads</option>
+                </select>
+              </div>
+              <p class="err" id="area-err"></p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- STEP 2 -->
+      <section class="step" data-step="2" aria-labelledby="s2-title" hidden>
+        <header class="step-head">
+          <p class="step-count">Paso 2 de 3</p>
+          <h2 id="s2-title" tabindex="-1">Experiencia</h2>
+          <p class="step-lede">Con esto te ubicamos en las búsquedas correctas. Lo opcional suma a tu perfil, y si falta te lo recordamos.</p>
+        </header>
+        <div class="fields">
+          <fieldset class="field">
+            <legend>Seniority</legend>
+            <div class="seg" role="radiogroup" aria-describedby="seniority-err">
+              <label><input type="radio" name="seniority" value="Junior" required><span>Junior</span></label>
+              <label><input type="radio" name="seniority" value="Semi Senior"><span>Semi Senior</span></label>
+              <label><input type="radio" name="seniority" value="Senior"><span>Senior</span></label>
+            </div>
+            <p class="err" id="seniority-err"></p>
+          </fieldset>
+          <div class="field-row field-row--narrow">
+            <div class="field">
+              <label for="anios">Años de experiencia</label>
+              <input id="anios" name="anios" type="number" inputmode="numeric" min="0" max="40" step="1" placeholder="0" required>
+              <p class="err" id="anios-err"></p>
+            </div>
+            <div class="field">
+              <label for="stack">Stack principal</label>
+              <input id="stack" name="stack" type="text" placeholder="Ej.: React, TypeScript, Node.js" required>
+              <p class="err" id="stack-err"></p>
+            </div>
+          </div>
+          <div class="field">
+            <label for="github">GitHub o portfolio <span class="opt">Opcional</span></label>
+            <input id="github" name="github" type="url" inputmode="url" placeholder="https://github.com/tu-usuario" spellcheck="false">
+            <p class="err" id="github-err"></p>
+          </div>
+          <div class="field">
+            <span class="label" id="cv-label">CV en inglés <span class="opt">Opcional</span></span>
+            <label class="drop" for="cv">
+              <svg class="ico" aria-hidden="true"><use href="#i-upload"/></svg>
+              <span class="drop-text"><strong>Sube tu CV</strong> o arrástralo aquí<small>PDF o Word, hasta 5 MB</small></span>
+              <input id="cv" name="cv" type="file" accept=".pdf,.doc,.docx,application/pdf,application/msword,application/vnd.openxmlformats-officedocument.wordprocessingml.document" aria-labelledby="cv-label" aria-describedby="cv-err">
+            </label>
+            <p class="err" id="cv-err"></p>
+          </div>
+          <div class="field">
+            <label for="motivacion">¿Qué buscas en tu próximo rol? <span class="opt">Opcional</span></label>
+            <textarea id="motivacion" name="motivacion" rows="3" maxlength="400" placeholder="Ej.: Quiero trabajar en producto, con un equipo que despliega seguido."></textarea>
+            <p class="hint"><span data-count="motivacion">0</span>/400</p>
+          </div>
+        </div>
+      </section>
+
+      <!-- STEP 3 -->
+      <section class="step" data-step="3" aria-labelledby="s3-title" hidden>
+        <header class="step-head">
+          <p class="step-count">Paso 3 de 3</p>
+          <h2 id="s3-title" tabindex="-1">Video en inglés</h2>
+          <p class="step-lede">Un video de 30 a 60 segundos nos permite pre-verificar tu nivel antes de presentarte a los clientes de EE.&nbsp;UU.</p>
+        </header>
+
+        <div class="prompt">
+          <p class="prompt-title">Qué decir</p>
+          <p>Preséntate en inglés: quién eres, en qué trabajaste últimamente y qué tipo de rol buscas. No hace falta guion ni edición.</p>
+        </div>
+
+        <div class="seg seg--tabs" role="tablist" aria-label="Cómo quieres enviar tu video">
+          <button type="button" role="tab" id="tab-rec" aria-controls="pane-rec" aria-selected="true">Grabar con mi cámara</button>
+          <button type="button" role="tab" id="tab-up" aria-controls="pane-up" aria-selected="false" tabindex="-1">Subir un video</button>
+        </div>
+
+        <div class="pane" id="pane-rec" role="tabpanel" aria-labelledby="tab-rec">
+          <div class="stage" data-state="idle">
+            <video class="stage-video" playsinline muted></video>
+            <div class="stage-idle">
+              <svg class="ico" aria-hidden="true"><use href="#i-video"/></svg>
+              <p>Tu cámara se activa solo cuando lo pidas.</p>
+            </div>
+            <div class="rec-meter" aria-hidden="true"><span class="rec-fill"></span><span class="rec-min"></span></div>
+            <p class="rec-time"><span class="rec-dot" aria-hidden="true"></span><span data-time>0:00</span> / 1:00</p>
+          </div>
+          <div class="rec-actions">
+            <button type="button" class="btn" data-rec="enable"><svg class="ico" aria-hidden="true"><use href="#i-video"/></svg>Activar cámara</button>
+            <button type="button" class="btn btn--line" data-rec="start" hidden><svg class="ico" aria-hidden="true"><use href="#i-rec"/></svg>Grabar</button>
+            <button type="button" class="btn" data-rec="stop" hidden><svg class="ico" aria-hidden="true"><use href="#i-stop"/></svg>Detener</button>
+            <button type="button" class="btn btn--ghost" data-rec="redo" hidden>Volver a grabar</button>
+            <p class="rec-hint">El mínimo es 30&nbsp;s; a los 60&nbsp;s la grabación se detiene sola.</p>
+          </div>
+        </div>
+
+        <div class="pane" id="pane-up" role="tabpanel" aria-labelledby="tab-up" hidden>
+          <label class="drop drop--tall" for="videofile">
+            <svg class="ico" aria-hidden="true"><use href="#i-upload"/></svg>
+            <span class="drop-text"><strong>Sube un video que ya tengas</strong> o arrástralo aquí<small>MP4, MOV o WebM · 30 a 60 segundos · hasta 200 MB</small></span>
+            <input id="videofile" type="file" accept="video/*" aria-describedby="video-err">
+          </label>
+        </div>
+        <p class="err" id="video-err" role="alert"></p>
+        <p class="ok-line" id="video-ok" hidden><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg><span></span></p>
+      </section>
+
+      <!-- DONE -->
+      <section class="step step--done" data-step="4" aria-labelledby="done-title" hidden>
+        <div class="done-mark" aria-hidden="true"><svg class="ico"><use href="#i-check"/></svg></div>
+        <h2 id="done-title" tabindex="-1">Perfil enviado</h2>
+        <p class="step-lede" data-done-lede>Tu perfil quedó en revisión. Próxima estación: <strong>Tech fit interview</strong>.</p>
+        <div class="missing" data-missing hidden>
+          <p class="missing-title">Para completar tu perfil falta:</p>
+          <ul></ul>
+        </div>
+        <div class="done-actions">
+          <a class="btn btn--line" href="index.html#vacantes">Ver búsquedas laborales <svg class="ico arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          <a class="btn btn--ghost" href="index.html">Volver al inicio</a>
+        </div>
+      </section>
+
+      <!-- LOGIN -->
+      <section class="step step--login" data-step="login" aria-labelledby="login-title" hidden>
+        <header class="step-head">
+          <h2 id="login-title" tabindex="-1">Iniciar sesión</h2>
+          <p class="step-lede">Te enviamos un enlace de acceso a tu email. Sin contraseñas.</p>
+        </header>
+        <div class="fields">
+          <div class="field">
+            <label for="login-email">Email</label>
+            <input id="login-email" type="email" autocomplete="email" inputmode="email" placeholder="nombre@email.com" spellcheck="false">
+            <p class="err" id="login-email-err"></p>
+          </div>
+        </div>
+        <p class="ok-line" id="login-ok" hidden><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg><span></span></p>
+        <div class="login-actions">
+          <button type="button" class="btn btn--line" data-login>Enviarme el enlace</button>
+          <a class="text-link" href="registro.html" data-go="1">¿Aún no tienes perfil? Regístrate</a>
+        </div>
+      </section>
+
+      <footer class="panel-foot" data-foot>
+        <button type="button" class="btn btn--ghost" data-back hidden><svg class="ico" aria-hidden="true"><use href="#i-back"/></svg>Volver</button>
+        <p class="saved" data-saved aria-live="polite"><svg class="ico" aria-hidden="true"><use href="#i-save"/></svg><span>Tu progreso se guarda en este dispositivo</span></p>
+        <div class="foot-right">
+          <button type="button" class="text-link" data-later hidden>Lo grabo después</button>
+          <button type="submit" class="btn btn--line" data-next><span data-next-label>Continuar</span> <svg class="ico arrow" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </div>
+      </footer>
+    </form>
+  </div>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-line" aria-hidden="true"></div>
+  <div class="wrap top">
+    <a class="brand" href="index.html" aria-label="webstarted Talent Network, inicio">
+      <svg class="brand-mark" viewBox="-30 -30 230 190" aria-hidden="true"><use href="#logo-mark"/></svg>
+      <span class="brand-word">webstarted</span>
+      <span class="brand-sub">Talent<br>Network</span>
+    </a>
+    <nav aria-label="Pie de página">
+      <a href="index.html#vacantes">Búsquedas laborales</a>
+      <a href="registro.html">Talent Network</a>
+      <a href="index.html#academy">Academy</a>
+      <a href="index.html#comunidad">#WorkWithWebstarted</a>
+    </nav>
+  </div>
+  <div class="bottom">
+    <div class="wrap">
+      <span>Talento IT para startups de EE.&nbsp;UU. · 100% remoto · Pago en USD</span>
+      <nav aria-label="Legal"><a href="#">Términos</a> &nbsp;·&nbsp; <a href="#">Privacidad</a></nav>
+    </div>
+  </div>
+</footer>
+
+<script src="registro.js" defer></script>
+</body>
+</html>

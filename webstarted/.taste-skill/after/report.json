@@ -1,0 +1,2118 @@
+{
+ "url": "prototipo/index.html",
+ "at": "2026-11-03T14:32:01.818Z",
+ "allow": [],
+ "viewports": [
+  {
+   "width": 1440,
+   "height": 900,
+   "load": "load",
+   "screens": 6,
+   "filled": [
+    0.75,
+    0.46,
+    0.44,
+    0.73,
+    0.44,
+    0.82
+   ],
+   "motion": {
+    "elements": 12,
+    "css": 6,
+    "transitions": 6,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "page": {
+     "height": 4991,
+     "screens": 5.5,
+     "words": 659,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 44,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Próxima parada: una startup de EE. UU.",
+     "words": 7,
+     "chars": 38,
+     "lines": 2,
+     "size": 112.3,
+     "vw": 7.8,
+     "font": "Archivo",
+     "weight": 820,
+     "tracking": -0.03,
+     "leading": 0.96,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.77,
+     "top": 132,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Próxima parada: una startup de EE. UU.",
+     "words": 7,
+     "lines": 2,
+     "size": 112.3,
+     "font": "Archivo"
+    },
+    "headings": [
+     {
+      "text": "Próxima parada: una startup de EE. UU.",
+      "words": 7,
+      "chars": 38,
+      "lines": 2,
+      "size": 112.3,
+      "vw": 7.8,
+      "font": "Archivo",
+      "weight": 820,
+      "tracking": -0.03,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.77,
+      "top": 132,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Postulación",
+      "words": 1,
+      "chars": 11,
+      "lines": 1,
+      "size": 32,
+      "vw": 2.2,
+      "font": "Archivo",
+      "weight": 760,
+      "tracking": -0.02,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "right",
+      "widthRatio": 0.47,
+      "top": 968,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Te decimos exactamente qué falta",
+      "words": 5,
+      "chars": 32,
+      "lines": 1,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Archivo",
+      "weight": 760,
+      "tracking": -0.028,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.51,
+      "top": 1284,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Startups & Empresas que confían en nuestra Talent Network",
+      "words": 9,
+      "chars": 57,
+      "lines": 2,
+      "size": 36,
+      "vw": 2.5,
+      "font": "Archivo",
+      "weight": 760,
+      "tracking": -0.025,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.51,
+      "top": 1834,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Un perfil, cuatro líneas",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Archivo",
+      "weight": 760,
+      "tracking": -0.028,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.51,
+      "top": 2307,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Perfiles con prioridad ante los reclutadores",
+      "words": 6,
+      "chars": 44,
+      "lines": 2,
+      "size": 44,
+      "vw": 3.1,
+      "font": "Archivo",
+      "weight": 760,
+      "tracking": -0.028,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.51,
+      "top": 3793,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Estás dudando de cómo va a ser tu entrevista laboral? En WS Academy tenemos la solución, ¡súmate!",
+      "words": 17,
+      "chars": 98,
+      "lines": 4,
+      "size": 40,
+      "vw": 2.8,
+      "font": "Archivo",
+      "weight": 760,
+      "tracking": -0.026,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.44,
+      "top": 4525,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 4,
+     "over2Lines": 1,
+     "statements": 1,
+     "centered": 1,
+     "medianWords": 6,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Archivo",
+       "share": 0.99,
+       "mono": false
+      },
+      {
+       "family": "Montserrat",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      10,
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      25,
+      32,
+      36,
+      40,
+      44,
+      112
+     ],
+     "sizeCount": 19,
+     "notLoaded": [],
+     "body": {
+      "font": "Archivo",
+      "size": 15.4,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 5.8
+     },
+     "measureChars": 40,
+     "max": {
+      "size": 112.3,
+      "vw": 7.8,
+      "font": "Archivo",
+      "text": "Próxima parada:"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 7,
+     "microLabelShare": 0.023,
+     "microSamples": [
+      "Estación de 5",
+      "1",
+      "Vista de ejemplo",
+      "Perfiles de ejemplo",
+      "Talent Network",
+      "Talent Network"
+     ],
+     "upperShare": 0.03,
+     "centerShare": 0.19,
+     "smallText": 17
+    },
+    "eyebrows": [
+     {
+      "text": "Estación de 5",
+      "above": "Postulación",
+      "upper": true,
+      "tracked": true,
+      "mono": false,
+      "pill": false,
+      "size": 11.5,
+      "top": 947
+     }
+    ],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f3f2ee",
+     "bodyBgHsl": {
+      "h": 48,
+      "s": 0.17,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#15172c",
+       "top": 68,
+       "hsl": {
+        "h": 235,
+        "s": 0.35,
+        "l": 0.13
+       }
+      },
+      {
+       "color": "#087a6c",
+       "top": 4425,
+       "hsl": {
+        "h": 173,
+        "s": 0.88,
+        "l": 0.25
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#565970",
+       "share": 0.3
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.29
+      },
+      {
+       "color": "#15172c",
+       "share": 0.22
+      },
+      {
+       "color": "#b7b9d0",
+       "share": 0.08
+      },
+      {
+       "color": "#3a3d5c",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#15172c"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 11,
+     "inHero": 4,
+     "radius": 6,
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Saltar al contenido",
+      "Inicio",
+      "Registrarse",
+      "Crear mi perfil verificado"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 7,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "form.boarding → rgba(21, 23, 44, 0.05) 0px 1px 2px 0px, rgba(21, 23, 44, 0.22) 0px 10px 28px -14",
+      "article.ticket → rgba(21, 23, 44, 0.05) 0px 1px 2px 0px, rgba(21, 23, 44, 0.2) 0px 10px 28px -16p",
+      "article.tcard.is-badged → rgba(21, 23, 44, 0.08) 0px 1px 2px 0px, rgba(21, 23, 44, 0.35) 0px 14px 30px -18",
+      "article.tcard.is-badged → rgba(21, 23, 44, 0.08) 0px 1px 2px 0px, rgba(21, 23, 44, 0.35) 0px 14px 30px -18"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "p.sign-next 678px",
+      "footer.tc-foot 400px",
+      "footer.tc-foot 400px",
+      "footer.tc-foot 400px",
+      "div.bottom 1440px"
+     ],
+     "outlinedBoxes": 6,
+     "dashed": 4,
+     "blurred": 0,
+     "roundedBoxes": 11,
+     "boxRadius": 10,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 4,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 2473
+      },
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 4044
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 8,
+     "fixed": true,
+     "height": 68,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "archivo",
+     "montserrat"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 1440,
+     "h": 900
+    },
+    "pageH": 4991,
+    "margins": {
+     "left": 100,
+     "right": 100
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 68,
+      "height": 1168,
+      "words": 124,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Próxima parada:",
+       "size": 112,
+       "tag": "h1"
+      },
+      "left": 100,
+      "right": 100,
+      "textLeft": 100,
+      "textRight": 171,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.ticket-sec",
+      "tag": "section",
+      "top": 1236,
+      "height": 510,
+      "words": 61,
+      "media": 0,
+      "middle": 91,
+      "heading": {
+       "text": "Te decimos exactamente qué falta",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 100,
+      "right": 175,
+      "textLeft": 100,
+      "textRight": 175,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.logos-sec",
+      "tag": "section",
+      "top": 1746,
+      "height": 488,
+      "words": 55,
+      "media": 0,
+      "middle": 96,
+      "heading": {
+       "text": "Startups & Empresas que confían en nuestra Talent ",
+       "size": 36,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 58,
+      "textLeft": 0,
+      "textRight": 58,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.network",
+      "tag": "section",
+      "top": 2235,
+      "height": 1439,
+      "words": 222,
+      "media": 0,
+      "middle": 16,
+      "heading": {
+       "text": "Un perfil, cuatro líneas",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 100,
+      "right": 139,
+      "textLeft": 100,
+      "textRight": 139,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.profiles",
+      "tag": "section",
+      "top": 3673,
+      "height": 752,
+      "words": 104,
+      "media": 0,
+      "middle": 71,
+      "heading": {
+       "text": "Perfiles con prioridad ante los reclutadores",
+       "size": 44,
+       "tag": "h2"
+      },
+      "left": 100,
+      "right": 267,
+      "textLeft": 100,
+      "textRight": 267,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.xfer-plate",
+      "tag": "section",
+      "top": 4425,
+      "height": 376,
+      "words": 24,
+      "media": 0,
+      "middle": 325,
+      "heading": {
+       "text": "¿Estás dudando de cómo va a ser tu entrevista labo",
+       "size": 40,
+       "tag": "h2"
+      },
+      "left": 113,
+      "right": 148,
+      "textLeft": 113,
+      "textRight": 148,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 4801,
+      "height": 190,
+      "words": 24,
+      "media": 0,
+      "middle": 251,
+      "heading": {
+       "text": "webstarted",
+       "size": 23,
+       "tag": "span"
+      },
+      "left": 100,
+      "right": 100,
+      "textLeft": 100,
+      "textRight": 100,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Próxima parada: una startup de EE. UU.",
+      "size": 112,
+      "top": 132,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 100,
+      "n": 7
+     },
+     {
+      "x": 120,
+      "n": 5
+     },
+     {
+      "x": 173,
+      "n": 4
+     },
+     {
+      "x": 227,
+      "n": 2
+     },
+     {
+      "x": 268,
+      "n": 1
+     },
+     {
+      "x": 540,
+      "n": 1
+     },
+     {
+      "x": 636,
+      "n": 1
+     },
+     {
+      "x": 960,
+      "n": 1
+     }
+    ],
+    "leftBlocks": 22,
+    "bodySize": 15,
+    "stage": false,
+    "explains": true,
+    "slivers": [],
+    "voidShare": 0.11,
+    "voidBox": {
+     "x": 300,
+     "y": 600,
+     "w": 1140,
+     "h": 120
+    }
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 768,
+   "height": 1024,
+   "load": "load",
+   "screens": 7,
+   "filled": [
+    0.82,
+    0.48,
+    0.72,
+    0.92,
+    0.64,
+    0.79,
+    0.82
+   ],
+   "motion": {
+    "elements": 11,
+    "css": 5,
+    "transitions": 6,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "page": {
+     "height": 6229,
+     "screens": 6.1,
+     "words": 648,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 44,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Próxima parada: una startup de EE. UU.",
+     "words": 7,
+     "chars": 38,
+     "lines": 2,
+     "size": 59.9,
+     "vw": 7.8,
+     "font": "Archivo",
+     "weight": 820,
+     "tracking": -0.03,
+     "leading": 0.96,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 106,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Próxima parada: una startup de EE. UU.",
+     "words": 7,
+     "lines": 2,
+     "size": 59.9,
+     "font": "Archivo"
+    },
+    "headings": [
+     {
+      "text": "Próxima parada: una startup de EE. UU.",
+      "words": 7,
+      "chars": 38,
+      "lines": 2,
+      "size": 59.9,
+      "vw": 7.8,
+      "font": "Archivo",
+      "weight": 820,
+      "tracking": -0.03,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 106,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Te decimos exactamente qué falta",
+      "words": 5,
+      "chars": 32,
+      "lines": 1,
+      "size": 30.4,
+      "vw": 4,
+      "font": "Archivo",
+      "weight": 760,
+      "tracking": -0.028,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1341,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Un perfil, cuatro líneas",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 30.4,
+      "vw": 4,
+      "font": "Archivo",
+      "weight": 760,
+      "tracking": -0.028,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2373,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Perfiles con prioridad ante los reclutadores",
+      "words": 6,
+      "chars": 44,
+      "lines": 1,
+      "size": 30.4,
+      "vw": 4,
+      "font": "Archivo",
+      "weight": 760,
+      "tracking": -0.028,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4544,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 4,
+     "maxLines": 2,
+     "over2Lines": 0,
+     "statements": 0,
+     "centered": 0,
+     "medianWords": 5,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Archivo",
+       "share": 0.99,
+       "mono": false
+      },
+      {
+       "family": "Montserrat",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      23,
+      26,
+      30,
+      60
+     ],
+     "sizeCount": 15,
+     "notLoaded": [],
+     "body": {
+      "font": "Archivo",
+      "size": 15.4,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 5.8
+     },
+     "measureChars": 50,
+     "max": {
+      "size": 59.9,
+      "vw": 7.8,
+      "font": "Archivo",
+      "text": "Próxima parada:"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 5,
+     "microLabelShare": 0.02,
+     "microSamples": [
+      "Vista de ejemplo",
+      "Perfiles de ejemplo",
+      "Talent Network",
+      "Talent Network",
+      "Talent Network"
+     ],
+     "upperShare": 0.02,
+     "centerShare": 0.05,
+     "smallText": 16
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f3f2ee",
+     "bodyBgHsl": {
+      "h": 48,
+      "s": 0.17,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#15172c",
+       "top": 68,
+       "hsl": {
+        "h": 235,
+        "s": 0.35,
+        "l": 0.13
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 1472,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#087a6c",
+       "top": 5605,
+       "hsl": {
+        "h": 173,
+        "s": 0.88,
+        "l": 0.25
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#565970",
+       "share": 0.34
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.29
+      },
+      {
+       "color": "#15172c",
+       "share": 0.23
+      },
+      {
+       "color": "#3a3d5c",
+       "share": 0.04
+      },
+      {
+       "color": "#dfe0ee",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#15172c"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 10,
+     "inHero": 4,
+     "radius": 6,
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Saltar al contenido",
+      "Registrarse",
+      "Crear mi perfil verificado",
+      "Subir a la línea"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 7,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "form.boarding → rgba(21, 23, 44, 0.05) 0px 1px 2px 0px, rgba(21, 23, 44, 0.22) 0px 10px 28px -14",
+      "article.ticket → rgba(21, 23, 44, 0.05) 0px 1px 2px 0px, rgba(21, 23, 44, 0.2) 0px 10px 28px -16p",
+      "article.tcard.is-badged → rgba(21, 23, 44, 0.08) 0px 1px 2px 0px, rgba(21, 23, 44, 0.35) 0px 14px 30px -18",
+      "article.tcard.is-badged → rgba(21, 23, 44, 0.08) 0px 1px 2px 0px, rgba(21, 23, 44, 0.35) 0px 14px 30px -18"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "div.ticket-cta 705px",
+      "footer.tc-foot 460px",
+      "footer.tc-foot 460px",
+      "footer.tc-foot 460px",
+      "div.bottom 768px"
+     ],
+     "outlinedBoxes": 6,
+     "dashed": 4,
+     "blurred": 0,
+     "roundedBoxes": 10,
+     "boxRadius": 10,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": [
+      {
+       "count": 3,
+       "iconTopped": true,
+       "rounded": true,
+       "top": 4712
+      }
+     ]
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 3,
+     "fixed": true,
+     "height": 68,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "archivo",
+     "montserrat"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 768,
+     "h": 1024
+    },
+    "pageH": 6229,
+    "margins": {
+     "left": 31,
+     "right": 31
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 68,
+      "height": 1242,
+      "words": 123,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Próxima parada:",
+       "size": 60,
+       "tag": "h1"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 40,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.ticket-sec",
+      "tag": "section",
+      "top": 1310,
+      "height": 629,
+      "words": 61,
+      "media": 0,
+      "middle": 84,
+      "heading": {
+       "text": "Te decimos exactamente qué falta",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 60,
+      "textLeft": 31,
+      "textRight": 60,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.logos-sec",
+      "tag": "section",
+      "top": 1940,
+      "height": 387,
+      "words": 46,
+      "media": 0,
+      "middle": 96,
+      "heading": {
+       "text": "Startups & Empresas que confían en nuestra Talent ",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 0,
+      "right": 0,
+      "textLeft": 0,
+      "textRight": 0,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.network",
+      "tag": "section",
+      "top": 2327,
+      "height": 2148,
+      "words": 222,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Un perfil, cuatro líneas",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 159,
+      "textLeft": 31,
+      "textRight": 159,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.profiles",
+      "tag": "section",
+      "top": 4475,
+      "height": 1130,
+      "words": 104,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Perfiles con prioridad ante los reclutadores",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 138,
+      "textLeft": 31,
+      "textRight": 138,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.xfer-plate",
+      "tag": "section",
+      "top": 5605,
+      "height": 381,
+      "words": 24,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "¿Estás dudando de cómo va a ser tu entrevista labo",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 31,
+      "right": 404,
+      "textLeft": 31,
+      "textRight": 404,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 5987,
+      "height": 243,
+      "words": 22,
+      "media": 0,
+      "middle": 59,
+      "heading": {
+       "text": "webstarted",
+       "size": 23,
+       "tag": "span"
+      },
+      "left": 31,
+      "right": 31,
+      "textLeft": 31,
+      "textRight": 31,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Próxima parada: una startup de EE. UU.",
+      "size": 60,
+      "top": 106,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 31,
+      "n": 10
+     },
+     {
+      "x": 51,
+      "n": 7
+     },
+     {
+      "x": 104,
+      "n": 4
+     }
+    ],
+    "leftBlocks": 21,
+    "bodySize": 15,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  },
+  {
+   "width": 390,
+   "height": 844,
+   "load": "load",
+   "screens": 8,
+   "filled": [
+    0.92,
+    0.44,
+    0.6,
+    0.9,
+    0.92,
+    0.74,
+    0.86,
+    0.87
+   ],
+   "motion": {
+    "elements": 5,
+    "css": 5,
+    "transitions": 0,
+    "scripted": 0,
+    "videos": 0,
+    "playingVideos": 0
+   },
+   "metrics": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "page": {
+     "height": 6683,
+     "screens": 7.9,
+     "words": 646,
+     "img": 0,
+     "video": 0,
+     "canvas": 0,
+     "svg": 44,
+     "sections": 6,
+     "horizontalOverflow": 0,
+     "overflowCulprits": [],
+     "uiFragments": 0,
+     "uiAbuse": false,
+     "realPictures": 0,
+     "videoCount": 0,
+     "uiPictures": 0,
+     "pictureSamples": [],
+     "blendText": 0,
+     "sideScrollers": 0,
+     "brokenImages": [],
+     "emoji": [],
+     "videosNoPoster": 0
+    },
+    "hero": {
+     "text": "Próxima parada: una startup de EE. UU.",
+     "words": 7,
+     "chars": 38,
+     "lines": 2,
+     "size": 33.6,
+     "vw": 8.6,
+     "font": "Archivo",
+     "weight": 820,
+     "tracking": -0.03,
+     "leading": 0.96,
+     "upper": false,
+     "italic": false,
+     "mono": false,
+     "align": "left",
+     "position": "center",
+     "widthRatio": 0.92,
+     "top": 104,
+     "tag": "h1",
+     "kind": "heading"
+    },
+    "h1": {
+     "text": "Próxima parada: una startup de EE. UU.",
+     "words": 7,
+     "lines": 2,
+     "size": 33.6,
+     "font": "Archivo"
+    },
+    "headings": [
+     {
+      "text": "Próxima parada: una startup de EE. UU.",
+      "words": 7,
+      "chars": 38,
+      "lines": 2,
+      "size": 33.6,
+      "vw": 8.6,
+      "font": "Archivo",
+      "weight": 820,
+      "tracking": -0.03,
+      "leading": 0.96,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 104,
+      "tag": "h1",
+      "kind": "heading"
+     },
+     {
+      "text": "Te decimos exactamente qué falta",
+      "words": 5,
+      "chars": 32,
+      "lines": 2,
+      "size": 30.4,
+      "vw": 7.8,
+      "font": "Archivo",
+      "weight": 760,
+      "tracking": -0.028,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 1415,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Hola, Camila",
+      "words": 2,
+      "chars": 12,
+      "lines": 1,
+      "size": 22.4,
+      "vw": 5.7,
+      "font": "Archivo",
+      "weight": 760,
+      "tracking": -0.015,
+      "leading": 1.55,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "left",
+      "widthRatio": 0.35,
+      "top": 1653,
+      "tag": "p",
+      "kind": "statement"
+     },
+     {
+      "text": "Startups & Empresas que confían en nuestra Talent Network",
+      "words": 9,
+      "chars": 57,
+      "lines": 3,
+      "size": 25.6,
+      "vw": 6.6,
+      "font": "Archivo",
+      "weight": 760,
+      "tracking": -0.025,
+      "leading": 1.12,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "center",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2139,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Un perfil, cuatro líneas",
+      "words": 4,
+      "chars": 24,
+      "lines": 1,
+      "size": 30.4,
+      "vw": 7.8,
+      "font": "Archivo",
+      "weight": 760,
+      "tracking": -0.028,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 2557,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "Perfiles con prioridad ante los reclutadores",
+      "words": 6,
+      "chars": 44,
+      "lines": 2,
+      "size": 30.4,
+      "vw": 7.8,
+      "font": "Archivo",
+      "weight": 760,
+      "tracking": -0.028,
+      "leading": 1.08,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 4830,
+      "tag": "h2",
+      "kind": "heading"
+     },
+     {
+      "text": "¿Estás dudando de cómo va a ser tu entrevista laboral? En WS Academy tenemos la solución, ¡súmate!",
+      "words": 17,
+      "chars": 98,
+      "lines": 4,
+      "size": 25.6,
+      "vw": 6.6,
+      "font": "Archivo",
+      "weight": 760,
+      "tracking": -0.026,
+      "leading": 1.1,
+      "upper": false,
+      "italic": false,
+      "mono": false,
+      "align": "left",
+      "position": "center",
+      "widthRatio": 0.92,
+      "top": 6118,
+      "tag": "h2",
+      "kind": "heading"
+     }
+    ],
+    "headingSummary": {
+     "count": 7,
+     "maxLines": 4,
+     "over2Lines": 2,
+     "statements": 1,
+     "centered": 1,
+     "medianWords": 6,
+     "mixedFontHeadings": 0
+    },
+    "type": {
+     "families": [
+      {
+       "family": "Archivo",
+       "share": 0.99,
+       "mono": false
+      },
+      {
+       "family": "Montserrat",
+       "share": 0.01,
+       "mono": false
+      }
+     ],
+     "familyCount": 2,
+     "sizes": [
+      11,
+      12,
+      13,
+      14,
+      15,
+      16,
+      17,
+      19,
+      20,
+      21,
+      22,
+      26,
+      30,
+      34
+     ],
+     "sizeCount": 14,
+     "notLoaded": [],
+     "body": {
+      "font": "Archivo",
+      "size": 15.4,
+      "leading": 1.55,
+      "weight": 400,
+      "tracking": 0,
+      "contrast": 5.8
+     },
+     "measureChars": 39,
+     "max": {
+      "size": 33.6,
+      "vw": 8.6,
+      "font": "Archivo",
+      "text": "Próxima parada:"
+     },
+     "monoShare": 0,
+     "monoProseShare": 0,
+     "monoFamilies": [],
+     "monoSamples": [],
+     "microLabels": 5,
+     "microLabelShare": 0.02,
+     "microSamples": [
+      "Vista de ejemplo",
+      "Perfiles de ejemplo",
+      "Talent Network",
+      "Talent Network",
+      "Talent Network"
+     ],
+     "upperShare": 0.02,
+     "centerShare": 0.06,
+     "smallText": 16
+    },
+    "eyebrows": [],
+    "numbered": [],
+    "color": {
+     "bodyBg": "#f3f2ee",
+     "bodyBgHsl": {
+      "h": 48,
+      "s": 0.17,
+      "l": 0.94
+     },
+     "dark": false,
+     "sectionBgs": [
+      {
+       "color": "#15172c",
+       "top": 68,
+       "hsl": {
+        "h": 235,
+        "s": 0.35,
+        "l": 0.13
+       }
+      },
+      {
+       "color": "#ffffff",
+       "top": 671,
+       "hsl": {
+        "h": 0,
+        "s": 0,
+        "l": 1
+       }
+      },
+      {
+       "color": "#087a6c",
+       "top": 5986,
+       "hsl": {
+        "h": 173,
+        "s": 0.88,
+        "l": 0.25
+       }
+      }
+     ],
+     "textColors": [
+      {
+       "color": "#565970",
+       "share": 0.35
+      },
+      {
+       "color": "#ffffff",
+       "share": 0.29
+      },
+      {
+       "color": "#15172c",
+       "share": 0.23
+      },
+      {
+       "color": "#3a3d5c",
+       "share": 0.04
+      },
+      {
+       "color": "#dfe0ee",
+       "share": 0.04
+      }
+     ],
+     "button": {
+      "bg": "#ffffff",
+      "hsl": {
+       "h": 0,
+       "s": 0,
+       "l": 1
+      },
+      "fg": "#15172c"
+     },
+     "lowContrast": []
+    },
+    "buttons": {
+     "count": 10,
+     "inHero": 4,
+     "radius": 6,
+     "height": 46,
+     "withShadow": 0,
+     "withGradient": 0,
+     "mono": 0,
+     "upper": 0,
+     "heroLabels": [
+      "Saltar al contenido",
+      "Registrarse",
+      "Crear mi perfil verificado",
+      "Subir a la línea"
+     ]
+    },
+    "surfaces": {
+     "shadowStatic": 7,
+     "shadowOverlay": 0,
+     "shadowSamples": [
+      "form.boarding → rgba(21, 23, 44, 0.05) 0px 1px 2px 0px, rgba(21, 23, 44, 0.22) 0px 10px 28px -14",
+      "article.ticket → rgba(21, 23, 44, 0.05) 0px 1px 2px 0px, rgba(21, 23, 44, 0.2) 0px 10px 28px -16p",
+      "article.tcard.is-badged → rgba(21, 23, 44, 0.08) 0px 1px 2px 0px, rgba(21, 23, 44, 0.35) 0px 14px 30px -18",
+      "article.tcard.is-badged → rgba(21, 23, 44, 0.08) 0px 1px 2px 0px, rgba(21, 23, 44, 0.35) 0px 14px 30px -18"
+     ],
+     "gradients": 0,
+     "scrims": 0,
+     "gradientSamples": [],
+     "gradientText": 0,
+     "hairlines": 5,
+     "hairlineSamples": [
+      "div.ticket-cta 356px",
+      "footer.tc-foot 358px",
+      "footer.tc-foot 358px",
+      "footer.tc-foot 358px",
+      "div.bottom 390px"
+     ],
+     "outlinedBoxes": 6,
+     "dashed": 4,
+     "blurred": 0,
+     "roundedBoxes": 10,
+     "boxRadius": 10,
+     "squareMedia": 0,
+     "roundedMedia": 0,
+     "mediaRadius": 0,
+     "textShadow": 0,
+     "cardRows": []
+    },
+    "heroMedia": [],
+    "nav": {
+     "links": 2,
+     "fixed": true,
+     "height": 68,
+     "floatingPill": false,
+     "blur": false
+    },
+    "fontsLoaded": [
+     "archivo",
+     "montserrat"
+    ]
+   },
+   "layout": {
+    "viewport": {
+     "w": 390,
+     "h": 844
+    },
+    "pageH": 6683,
+    "margins": {
+     "left": 16,
+     "right": 16
+    },
+    "sections": [
+     {
+      "sel": "section.hero",
+      "tag": "section",
+      "top": 68,
+      "height": 1323,
+      "words": 123,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Próxima parada:",
+       "size": 34,
+       "tag": "h1"
+      },
+      "left": 16,
+      "right": 16,
+      "textLeft": 16,
+      "textRight": 20,
+      "fullBleed": false,
+      "footer": false,
+      "hero": true,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.ticket-sec",
+      "tag": "section",
+      "top": 1391,
+      "height": 699,
+      "words": 61,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Te decimos exactamente qué falta",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 33,
+      "textLeft": 16,
+      "textRight": 33,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.logos-sec",
+      "tag": "section",
+      "top": 2091,
+      "height": 426,
+      "words": 37,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Startups & Empresas que confían en nuestra Talent ",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 29,
+      "right": 29,
+      "textLeft": 29,
+      "textRight": 29,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.network",
+      "tag": "section",
+      "top": 2517,
+      "height": 2248,
+      "words": 222,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Un perfil, cuatro líneas",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 39,
+      "textLeft": 16,
+      "textRight": 39,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.section.profiles",
+      "tag": "section",
+      "top": 4766,
+      "height": 1221,
+      "words": 104,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "Perfiles con prioridad ante los reclutadores",
+       "size": 30,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 19,
+      "textLeft": 16,
+      "textRight": 19,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "section.xfer-plate",
+      "tag": "section",
+      "top": 5986,
+      "height": 371,
+      "words": 24,
+      "media": 0,
+      "middle": 0,
+      "heading": {
+       "text": "¿Estás dudando de cómo va a ser tu entrevista labo",
+       "size": 26,
+       "tag": "h2"
+      },
+      "left": 16,
+      "right": 41,
+      "textLeft": 16,
+      "textRight": 41,
+      "fullBleed": false,
+      "footer": false,
+      "hero": false,
+      "continues": true,
+      "pinned": false
+     },
+     {
+      "sel": "footer.site-footer",
+      "tag": "footer",
+      "top": 6357,
+      "height": 326,
+      "words": 22,
+      "media": 0,
+      "middle": 0,
+      "heading": null,
+      "left": 16,
+      "right": 17,
+      "textLeft": 16,
+      "textRight": 17,
+      "fullBleed": false,
+      "footer": true,
+      "hero": false,
+      "continues": false,
+      "pinned": false
+     }
+    ],
+    "gaps": [],
+    "h1s": [
+     {
+      "text": "Próxima parada: una startup de EE. UU.",
+      "size": 34,
+      "top": 104,
+      "firstScreen": true
+     }
+    ],
+    "edgeText": [],
+    "edges": [
+     {
+      "x": 16,
+      "n": 10
+     },
+     {
+      "x": 36,
+      "n": 7
+     },
+     {
+      "x": 89,
+      "n": 4
+     }
+    ],
+    "leftBlocks": 21,
+    "bodySize": 15,
+    "stage": false,
+    "explains": false,
+    "slivers": [],
+    "voidShare": 0,
+    "voidBox": null
+   },
+   "app": null,
+   "consoleErrors": []
+  }
+ ],
+ "findings": [
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 1440,
+   "message": "1 headline(s) wrap past two lines at 1440px: \"¿Estás dudando de cómo va a ser tu entrevista la\" → 4 lines (17 words, 40px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 36px or less."
+  },
+  {
+   "level": "FAIL",
+   "id": "eyebrow",
+   "width": 1440,
+   "message": "1 eyebrow/kicker label(s) above headings: \"Estación de 5\" above \"Postulación\"",
+   "fix": "Delete them. If the label carried real information, fold it into the headline or the supporting sentence."
+  },
+  {
+   "level": "FAIL",
+   "id": "micro-label",
+   "width": 1440,
+   "message": "7 tiny uppercase letter-spaced labels (e.g. \"Estación de 5\", \"1\", \"Vista de ejemplo\", \"Perfiles de ejemplo\").",
+   "fix": "Use sentence-case text at a readable size, or delete the label.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "shadow",
+   "width": 1440,
+   "message": "7 box-shadow(s) on elements at rest: form.boarding → rgba(21, 23, 44, 0.05) 0px 1px 2px 0px, rgba(21, 23, 44, 0.22) 0px 10px 28px -14 | article.ticket → rgba(21, 23, 44, 0.05) 0px 1px 2px 0px, rgba(21, 23, 44, 0.2) 0px 10px 28px -16p | article.tcard.is-badged → rgba(21, 23, 44, 0.08) 0px 1px 2px 0px, rgba(21, 23, 44, 0.35) 0px 14px 30px -18",
+   "fix": "Remove. Separate surfaces with a tone step or space. Shadows are for things that really float (menus, dialogs, sticky bars).",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "hairline",
+   "width": 1440,
+   "message": "5 thin rule(s)/divider line(s): p.sign-next 678px | footer.tc-foot 400px | footer.tc-foot 400px | footer.tc-foot 400px",
+   "fix": "Delete. Separate with space, a tone change, or scale. Lines are only for real tables and form fields.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "outlined-box",
+   "width": 1440,
+   "message": "6 boxes drawn with a 1px outline.",
+   "fix": "Define a surface by its fill (one tone step from the page) or leave the content unboxed.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "dashed",
+   "width": 1440,
+   "message": "4 dashed/dotted border(s).",
+   "fix": "Remove unless it is a real drop zone.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "icon-cards",
+   "width": 1440,
+   "message": "2 row(s) of identical cards each topped with a small icon (4, 3 cards).",
+   "fix": "Replace with one composed section from the direction: a narrative split, a list set in large type, or real imagery per item.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "palette-cream",
+   "width": 1440,
+   "message": "Yellow-cream background (page background #f3f2ee).",
+   "fix": "Use the drawn palette. If you want warmth, take a low-chroma stone or bone, not a yellow cream.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "size-count",
+   "width": 1440,
+   "message": "19 different font sizes (10, 11, 12, 13, 14, 15, 16, 17, 19, 20, 21, 22, 23, 25, 32, 36, 40, 44, 112).",
+   "fix": "A page needs about five: display, heading, lead, body, small.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "body-size",
+   "width": 1440,
+   "message": "Body text is 15.4px.",
+   "fix": "Body copy 16–20px.",
+   "alsoAt": [
+    768
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "grey-body",
+   "width": 1440,
+   "message": "The running text is a soft grey on its ground (5.8:1).",
+   "fix": "Set body copy in the full ink (7:1 or more). Keep the muted ink for secondary notes; pages read thin and unfinished when everything is grey.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "FAIL",
+   "id": "few-pictures",
+   "width": 1440,
+   "message": "Only 0 picture(s) on the page (0 photographs, footage or raster images, 0 interface fragments). Drawings in SVG do not count.",
+   "fix": "Find real pictures of the subject's world with scripts/assets.mjs (photographs, archival images, maps, engravings, footage), download them to assets/ and give them room: a hero picture, one per section that has a subject, a full-width band. At least four, usually six to twelve."
+  },
+  {
+   "level": "WARN",
+   "id": "no-footage",
+   "width": 1440,
+   "message": "No video anywhere on the page.",
+   "fix": "Look for one honest clip with scripts/assets.mjs --video (the place, the material, the process) and use it as a muted loop with a poster frame. Defend its absence only if no clip fits the subject."
+  },
+  {
+   "level": "FAIL",
+   "id": "small-text",
+   "width": 1440,
+   "message": "17 text blocks under 13px.",
+   "fix": "Nothing meant to be read goes below 13px.",
+   "alsoAt": [
+    768,
+    390
+   ]
+  },
+  {
+   "level": "WARN",
+   "id": "still-page",
+   "width": 1440,
+   "message": "Little motion: 12 element(s) moved while the page loaded and scrolled.",
+   "fix": "Give every section an entrance for its parts (not one fade of the whole block) and add one moving picture: a looping clip or a slow move on a photograph."
+  },
+  {
+   "level": "WARN",
+   "id": "lopsided",
+   "width": 768,
+   "message": "A section keeps its content on one side and leaves 404px of the width empty: \"¿Estás dudando de cómo va a ser tu entrevista labo\".",
+   "fix": "Fill the other side with what the section has (its picture, a second column, the figure), or defend the void in one sentence."
+  },
+  {
+   "level": "FAIL",
+   "id": "headline-lines",
+   "width": 390,
+   "message": "2 headline(s) wrap past two lines at 390px: \"Startups & Empresas que confían en nuestra Talen\" → 3 lines (9 words, 25.6px); \"¿Estás dudando de cómo va a ser tu entrevista la\" → 4 lines (17 words, 25.6px)",
+   "fix": "Cut words first (a headline is a title, not a sentence). Then give it a wider measure. Lower the size only as a last resort and never below the scale you chose. A real statement paragraph belongs in a <p> or <blockquote> at 24px or less."
+  }
+ ],
+ "images": [
+  {
+   "viewport": "desktop",
+   "width": 1440,
+   "fold": "/home/user/webstarted/.taste-skill/after/desktop-fold.jpg",
+   "pages": [
+    "/home/user/webstarted/.taste-skill/after/desktop-page-01.jpg",
+    "/home/user/webstarted/.taste-skill/after/desktop-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "tablet",
+   "width": 768,
+   "fold": "/home/user/webstarted/.taste-skill/after/tablet-fold.jpg",
+   "pages": [
+    "/home/user/webstarted/.taste-skill/after/tablet-page-01.jpg",
+    "/home/user/webstarted/.taste-skill/after/tablet-page-02.jpg"
+   ],
+   "film": []
+  },
+  {
+   "viewport": "mobile",
+   "width": 390,
+   "fold": "/home/user/webstarted/.taste-skill/after/mobile-fold.jpg",
+   "pages": [
+    "/home/user/webstarted/.taste-skill/after/mobile-page-01.jpg"
+   ],
+   "film": []
+  }
+ ]
+}

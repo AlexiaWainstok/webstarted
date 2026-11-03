@@ -1,0 +1,5 @@
+Pon aquí los logos de las empresas clientes (SVG o PNG con fondo transparente).
+Luego, en index.html, dentro del carrusel, reemplaza cada
+  <li class="logo-tile is-placeholder">…Logo startup N</li>
+por
+  <li class="logo-tile"><img src="logos/archivo.svg" alt="Nombre de la empresa"></li>

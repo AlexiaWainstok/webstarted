@@ -1,0 +1,409 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Webstarted Talent Network</title>
+  <meta name="description" content="Tu próximo rol en una startup de EE. UU.: 100% remoto, pago en USD. Valida tu perfil técnico y tu inglés una sola vez.">
+  <meta name="theme-color" content="#15172c">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="stylesheet" href="home.css">
+</head>
+<body>
+<!--SPRITE-->
+<svg xmlns="http://www.w3.org/2000/svg" style="display:none" aria-hidden="true">
+  <symbol id="logo-mark" viewBox="-30 -30 230 190">
+    <polyline points="0,65 42.5,130 85,65 127.5,130 170,65" fill="none" stroke="currentColor" stroke-width="22" stroke-linejoin="round" stroke-linecap="round"/>
+    <g fill="currentColor">
+      <circle cx="42.5" cy="0" r="28"/><circle cx="127.5" cy="0" r="28"/>
+      <circle cx="0" cy="65" r="28"/><circle cx="85" cy="65" r="28"/><circle cx="170" cy="65" r="28"/>
+      <circle cx="42.5" cy="130" r="28"/><circle cx="127.5" cy="130" r="28"/>
+    </g>
+  </symbol>
+    <symbol id="i-profile" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10.5" r="2.5"/><path d="M5.8 17c.7-1.9 1.9-2.8 3.2-2.8s2.5.9 3.2 2.8M14.5 9.5h3.5M14.5 13h3.5"/></symbol>
+    <symbol id="i-video" viewBox="0 0 24 24"><rect x="2.5" y="6" width="13" height="12" rx="2"/><path d="M15.5 10.5 21 7.5v9l-5.5-3z"/></symbol>
+    <symbol id="i-code" viewBox="0 0 24 24"><path d="M8 7 3 12l5 5M16 7l5 5-5 5M13.5 5l-3 14"/></symbol>
+    <symbol id="i-meet" viewBox="0 0 24 24"><circle cx="8" cy="8.5" r="3"/><circle cx="16.8" cy="9.5" r="2.4"/><path d="M2.5 19.5c.8-3 3-4.6 5.5-4.6s4.7 1.6 5.5 4.6M14.6 14.7c.7-.4 1.4-.5 2.2-.5 2.2 0 3.9 1.3 4.7 3.9"/></symbol>
+    <symbol id="i-usd" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M14.9 9.3c-.5-1.1-1.6-1.7-2.9-1.7-1.6 0-2.9.9-2.9 2.2 0 3 6 1.6 6 4.6 0 1.3-1.3 2.3-3.1 2.3-1.4 0-2.6-.7-3.1-1.8M12 5.8v1.8M12 16.7v1.5"/></symbol>
+    <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+    <symbol id="i-back" viewBox="0 0 24 24"><path d="M19 12H5M11 6l-6 6 6 6"/></symbol>
+    <symbol id="i-login" viewBox="0 0 24 24"><path d="M10 17l5-5-5-5M15 12H3M14 4h5a1 1 0 0 1 1 1v14a1 1 0 0 1-1 1h-5"/></symbol>
+    <symbol id="i-check" viewBox="0 0 24 24"><path d="M5 12.5l4.5 4.5L19 7.5"/></symbol>
+    <symbol id="i-upload" viewBox="0 0 24 24"><path d="M12 15.5V4M7 9l5-5 5 5M4 15v4a1 1 0 0 0 1 1h14a1 1 0 0 0 1-1v-4"/></symbol>
+    <symbol id="i-badge" viewBox="0 0 24 24"><path d="M12 3l7 3v5.5c0 4.4-3 8-7 9.5-4-1.5-7-5.1-7-9.5V6z"/><path d="M8.8 12.2l2.2 2.2 4.4-4.6"/></symbol>
+    <symbol id="i-briefcase" viewBox="0 0 24 24"><rect x="3" y="7" width="18" height="13" rx="2"/><path d="M9 7V5.5A1.5 1.5 0 0 1 10.5 4h3A1.5 1.5 0 0 1 15 5.5V7M3 12.5h18"/></symbol>
+    <symbol id="i-academy" viewBox="0 0 24 24"><path d="M2.5 9 12 4.5 21.5 9 12 13.5z"/><path d="M6.5 11v4.5c1.5 1.4 3.3 2 5.5 2s4-.6 5.5-2V11M21.5 9v5"/></symbol>
+    <symbol id="i-chat" viewBox="0 0 24 24"><path d="M4 5h16a1 1 0 0 1 1 1v10a1 1 0 0 1-1 1h-9l-5 4v-4H4a1 1 0 0 1-1-1V6a1 1 0 0 1 1-1z"/></symbol>
+    <symbol id="i-save" viewBox="0 0 24 24"><path d="M12 7v5l3 2"/><circle cx="12" cy="12" r="9"/></symbol>
+    <symbol id="i-rec" viewBox="0 0 24 24"><circle cx="12" cy="12" r="8"/><circle cx="12" cy="12" r="3.5" fill="currentColor"/></symbol>
+    <symbol id="i-stop" viewBox="0 0 24 24"><rect x="6" y="6" width="12" height="12" rx="2" fill="currentColor"/></symbol>
+    <symbol id="i-external" viewBox="0 0 24 24"><path d="M14 4h6v6M20 4l-9 9M18 14v5a1 1 0 0 1-1 1H5a1 1 0 0 1-1-1V7a1 1 0 0 1 1-1h5"/></symbol>
+    <symbol id="i-image" viewBox="0 0 24 24"><rect x="3" y="4" width="18" height="16" rx="2"/><circle cx="9" cy="10" r="2"/><path d="M21 16l-5-5-9 9"/></symbol>
+    <symbol id="i-pause" viewBox="0 0 24 24"><path d="M9 6v12M15 6v12"/></symbol>
+    <symbol id="i-play" viewBox="0 0 24 24"><path d="M8 5.5v13l10-6.5z"/></symbol>
+    <symbol id="i-globe" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c2.5 2.6 3.8 5.6 3.8 9s-1.3 6.4-3.8 9c-2.5-2.6-3.8-5.6-3.8-9S9.5 5.6 12 3z"/></symbol>
+</svg>
+<!--/SPRITE-->
+<a class="skip" href="#main">Saltar al contenido</a>
+
+<header class="site-header">
+  <div class="wrap">
+    <a class="brand" href="index.html" aria-label="webstarted Talent Network, inicio">
+      <svg class="brand-mark" viewBox="-30 -30 230 190" aria-hidden="true"><use href="#logo-mark"/></svg>
+      <span class="brand-word">webstarted</span>
+      <span class="brand-sub">Talent<br>Network</span>
+    </a>
+    <nav class="nav" aria-label="Principal">
+      <a href="index.html" aria-current="page" style="--dot:#fff">Inicio</a>
+      <a href="#vacantes" style="--dot:var(--line-jobs)">Vacantes</a>
+      <a href="#talent-network" style="--dot:var(--line-tn)">Talent Network</a>
+      <a href="#academy" style="--dot:var(--line-academy)">Academy</a>
+      <a href="#comunidad" style="--dot:var(--line-community)">Comunidad</a>
+    </nav>
+    <div class="header-actions">
+      <a class="btn btn--ghost" href="registro.html#login"><svg class="ico" aria-hidden="true"><use href="#i-login"/></svg>Iniciar sesión</a>
+      <a class="btn btn--line" href="registro.html">Registrarse</a>
+    </div>
+  </div>
+</header>
+
+<main id="main">
+
+  <!-- ============ HERO: the selection process is the line ============ -->
+  <section class="hero" aria-labelledby="hero-title">
+    <div class="hero-plate">
+      <div class="wrap hero-top">
+        <div class="sign-row">
+          <span class="line-badge line-badge--xl reveal" style="--d:0" aria-hidden="true">TN</span>
+          <h1 id="hero-title" class="hero-sign">
+            <span class="reveal" style="--d:1">Próxima parada:</span>
+            <span class="reveal" style="--d:2">una startup de EE.&nbsp;UU.</span>
+          </h1>
+        </div>
+        <div class="hero-foot">
+          <div class="hero-pitch reveal" style="--d:3">
+            <p class="lede">100% remoto y con pago en USD. Validamos tu perfil técnico y tu inglés una sola vez y te presentamos directamente ante clientes internacionales.</p>
+            <div class="hero-actions">
+              <a class="btn btn--line btn--lg" href="registro.html">Crear mi perfil verificado <svg class="ico arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+              <a class="hero-link" href="#route">Ver el recorrido de 5 estaciones</a>
+            </div>
+          </div>
+          <ul class="services reveal" style="--d:4" aria-label="En esta línea">
+            <li><span class="pict pict--sm"><svg class="ico" aria-hidden="true"><use href="#i-globe"/></svg></span>100% remoto, desde Latinoamérica</li>
+            <li><span class="pict pict--sm"><svg class="ico" aria-hidden="true"><use href="#i-usd"/></svg></span>Pago en dólares</li>
+            <li><span class="pict pict--sm"><svg class="ico" aria-hidden="true"><use href="#i-meet"/></svg></span>Más de 91,000 profesionales registrados</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="route" id="route">
+      <div class="wrap">
+        <ol class="stations" aria-label="El proceso de selección, en 5 estaciones">
+          <li class="station is-current" data-i="0">
+            <button type="button" class="station-btn" aria-pressed="true" aria-controls="station-sign">
+              <span class="you" aria-hidden="true">Estás aquí</span>
+              <span class="pict"><svg class="ico" aria-hidden="true"><use href="#i-profile"/></svg></span>
+              <span class="roundel" aria-hidden="true"></span>
+              <span class="st-name">Postulación</span>
+              <span class="st-desc">Creas tu perfil verificado.</span>
+            </button>
+          </li>
+          <li class="station" data-i="1">
+            <button type="button" class="station-btn" aria-pressed="false" aria-controls="station-sign">
+              <span class="pict"><svg class="ico" aria-hidden="true"><use href="#i-video"/></svg></span>
+              <span class="roundel" aria-hidden="true"></span>
+              <span class="st-name">Video en inglés</span>
+              <span class="st-desc">Pre-verificamos tu nivel de inglés.</span>
+            </button>
+          </li>
+          <li class="station" data-i="2">
+            <button type="button" class="station-btn" aria-pressed="false" aria-controls="station-sign">
+              <span class="pict"><svg class="ico" aria-hidden="true"><use href="#i-code"/></svg></span>
+              <span class="roundel" aria-hidden="true"></span>
+              <span class="st-name">Tech fit interview</span>
+              <span class="st-desc">Entrevista técnica con nuestro equipo.</span>
+            </button>
+          </li>
+          <li class="station" data-i="3">
+            <button type="button" class="station-btn" aria-pressed="false" aria-controls="station-sign">
+              <span class="pict"><svg class="ico" aria-hidden="true"><use href="#i-meet"/></svg></span>
+              <span class="roundel" aria-hidden="true"></span>
+              <span class="st-name">Entrevistas con el cliente</span>
+              <span class="st-desc">Conversas con el cliente final.</span>
+            </button>
+          </li>
+          <li class="station is-terminal" data-i="4">
+            <button type="button" class="station-btn" aria-pressed="false" aria-controls="station-sign">
+              <span class="pict"><svg class="ico" aria-hidden="true"><use href="#i-usd"/></svg></span>
+              <span class="roundel" aria-hidden="true"></span>
+              <span class="st-name">Oferta en USD</span>
+              <span class="st-desc">Rol 100% remoto con pago en dólares.</span>
+            </button>
+          </li>
+        </ol>
+      </div>
+    </div>
+
+    <div class="wrap hero-board">
+      <form class="boarding" action="registro.html" method="get" aria-labelledby="board-title">
+        <h2 id="board-title" class="board-title">Sube en Postulación</h2>
+        <label class="field-label" for="board-area">¿En qué área trabajas?</label>
+        <div class="board-row">
+          <div class="select">
+            <select id="board-area" name="area">
+              <option value="">Elige tu área</option>
+              <option value="backend">Backend &amp; Go/Python</option>
+              <option value="frontend">Frontend</option>
+              <option value="fullstack">Fullstack</option>
+              <option value="ai-data">AI &amp; Data Science</option>
+              <option value="qa">QA &amp; Automation</option>
+              <option value="devops">DevOps &amp; Cloud</option>
+              <option value="management">Management / Leads</option>
+            </select>
+          </div>
+          <button class="btn btn--line" type="submit">Subir a la línea <svg class="ico arrow" aria-hidden="true"><use href="#i-arrow"/></svg></button>
+        </div>
+        <p class="board-note"><svg class="ico" aria-hidden="true"><use href="#i-save"/></svg>3 pasos, unos 3 minutos. Si no terminas hoy, tu progreso queda guardado.</p>
+      </form>
+
+      <div class="station-sign" id="station-sign" aria-live="polite">
+        <p class="sign-count">Estación <span data-sign="n">1</span> de 5</p>
+        <p class="sign-name" data-sign="name">Postulación</p>
+        <p class="sign-desc" data-sign="desc">Creas tu perfil verificado una sola vez: datos básicos, experiencia y un video corto en inglés.</p>
+        <p class="sign-next" data-sign="next">Próxima estación: <strong>Video en inglés</strong></p>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TICKET: we tell you exactly what's missing ============ -->
+  <section class="section ticket-sec" aria-labelledby="ticket-title">
+    <div class="wrap ticket-layout">
+      <div class="section-head">
+        <h2 id="ticket-title">Te decimos exactamente qué falta</h2>
+        <p>Nunca un mensaje genérico. Tu perfil muestra en qué estación estás y qué necesitas para avanzar a la siguiente.</p>
+      </div>
+
+      <article class="ticket" aria-label="Ejemplo de perfil en revisión">
+        <div class="ticket-stub">
+          <span class="demo-note">Vista de ejemplo</span>
+          <p class="t-hello">Hola, Camila</p>
+          <span class="tag tag--warn">Perfil incompleto</span>
+        </div>
+        <div class="ticket-body">
+          <div class="t-meta">
+            <span>Completitud del perfil · en revisión</span>
+            <strong>50%</strong>
+          </div>
+          <ol class="mini-line" aria-label="Avance del registro">
+            <li class="done"><span class="mr" aria-hidden="true"></span>Datos básicos <span class="sr-only">(completo)</span></li>
+            <li class="part"><span class="mr" aria-hidden="true"></span>Experiencia <span class="sr-only">(incompleto)</span></li>
+            <li><span class="mr" aria-hidden="true"></span>Video en inglés <span class="sr-only">(pendiente)</span></li>
+          </ol>
+          <p class="t-missing"><span>Falta:</span> video corto en inglés · CV en inglés · GitHub o portfolio</p>
+        </div>
+        <div class="ticket-cta">
+          <a class="btn btn--line" href="registro.html?paso=2">Completar mi perfil <svg class="ico arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+        </div>
+      </article>
+    </div>
+  </section>
+
+  <!-- ============ CLIENT LOGOS carousel ============ -->
+  <section class="section logos-sec" aria-labelledby="logos-title">
+    <div class="wrap logos-head">
+      <h2 id="logos-title">Startups &amp; Empresas que confían en nuestra Talent Network</h2>
+      <p>Más de 91,000 profesionales registrados y contrataciones activas en startups respaldadas por fondos de inversión de EE.&nbsp;UU.</p>
+    </div>
+    <div class="marquee" data-marquee>
+      <div class="marquee-inner">
+        <!-- Para usar un logo real: reemplaza el contenido del <li> por
+             <img src="logos/nombre.svg" alt="Nombre de la empresa"> y quita la clase is-placeholder -->
+        <ul class="marquee-list" aria-label="Logos de empresas clientes">
+              <li class="logo-tile is-placeholder"><svg class="ico" aria-hidden="true"><use href="#i-image"/></svg>Logo startup 1</li>
+              <li class="logo-tile is-placeholder"><svg class="ico" aria-hidden="true"><use href="#i-image"/></svg>Logo startup 2</li>
+              <li class="logo-tile is-placeholder"><svg class="ico" aria-hidden="true"><use href="#i-image"/></svg>Logo startup 3</li>
+              <li class="logo-tile is-placeholder"><svg class="ico" aria-hidden="true"><use href="#i-image"/></svg>Logo startup 4</li>
+              <li class="logo-tile is-placeholder"><svg class="ico" aria-hidden="true"><use href="#i-image"/></svg>Logo startup 5</li>
+              <li class="logo-tile is-placeholder"><svg class="ico" aria-hidden="true"><use href="#i-image"/></svg>Logo startup 6</li>
+              <li class="logo-tile is-placeholder"><svg class="ico" aria-hidden="true"><use href="#i-image"/></svg>Logo startup 7</li>
+              <li class="logo-tile is-placeholder"><svg class="ico" aria-hidden="true"><use href="#i-image"/></svg>Logo startup 8</li>
+        </ul>
+      </div>
+    </div>
+    <div class="wrap marquee-ctrl-wrap">
+      <button type="button" class="marquee-ctrl" data-marquee-toggle aria-pressed="false">
+        <svg class="ico" aria-hidden="true"><use href="#i-pause"/></svg><span>Pausar carrusel</span>
+      </button>
+    </div>
+  </section>
+
+  <!-- ============ NETWORK: four lines, one profile ============ -->
+  <section class="section network" aria-labelledby="net-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="net-title">Un perfil, cuatro líneas</h2>
+        <p>Tu perfil verificado te sirve en toda la red de Webstarted: búsquedas laborales, Talent Network, Academy y la comunidad.</p>
+      </div>
+
+      <div class="strips">
+        <article class="strip" id="talent-network" style="--c:var(--line-tn)">
+          <div class="plate">
+            <div class="plate-head"><span class="line-badge" style="--c:#fff;color:var(--line-tn)">TN</span><h3>Talent Network</h3></div>
+            <p>Un formulario corto en 3 pasos: datos básicos, experiencia y un video de 30 a 60 segundos en inglés para pre-verificar tu nivel (B2/C1) antes de presentarte a los clientes.</p>
+            <a class="btn btn--light" href="registro.html">Regístrate e ingresa <svg class="ico arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+          <ol class="strip-line">
+            <li><span class="sr" aria-hidden="true"></span><span class="sl">Datos básicos</span></li>
+            <li><span class="sr" aria-hidden="true"></span><span class="sl">Experiencia y motivación</span></li>
+            <li><span class="sr" aria-hidden="true"></span><span class="sl">Video corto en inglés</span></li>
+            <li class="xfer"><span class="sr" aria-hidden="true"></span><span class="sl">Perfil verificado<small>Combinación con Búsquedas laborales</small></span></li>
+          </ol>
+        </article>
+
+        <article class="strip" id="vacantes" style="--c:var(--line-jobs)">
+          <div class="plate">
+            <div class="plate-head"><span class="line-badge" style="--c:#fff;color:var(--line-jobs)">BL</span><h3>Búsquedas laborales</h3></div>
+            <p>Roles 100% remotos con pago en USD, todos con la misma estructura y el mismo proceso de selección. Filtra por área IT, seniority y modalidad.</p>
+            <a class="btn btn--light" href="registro.html">Postúlate con tu perfil <svg class="ico arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+          </div>
+          <ol class="strip-line" aria-label="Áreas IT">
+            <li><a href="registro.html?area=backend"><span class="sr" aria-hidden="true"></span><span class="sl">Backend &amp; Go/Python</span></a></li>
+            <li><a href="registro.html?area=frontend"><span class="sr" aria-hidden="true"></span><span class="sl">Frontend</span></a></li>
+            <li><a href="registro.html?area=fullstack"><span class="sr" aria-hidden="true"></span><span class="sl">Fullstack</span></a></li>
+            <li><a href="registro.html?area=ai-data"><span class="sr" aria-hidden="true"></span><span class="sl">AI &amp; Data Science</span></a></li>
+            <li><a href="registro.html?area=qa"><span class="sr" aria-hidden="true"></span><span class="sl">QA &amp; Automation</span></a></li>
+            <li><a href="registro.html?area=devops"><span class="sr" aria-hidden="true"></span><span class="sl">DevOps &amp; Cloud</span></a></li>
+            <li><a href="registro.html?area=management"><span class="sr" aria-hidden="true"></span><span class="sl">Management / Leads</span></a></li>
+          </ol>
+        </article>
+
+        <article class="strip" id="academy" style="--c:var(--line-academy)">
+          <div class="plate">
+            <div class="plate-head"><span class="line-badge" style="--c:#fff;color:var(--line-academy)">WA</span><h3>Webstarted Academy</h3></div>
+            <p>Prepárate para tus entrevistas y obtén la insignia <strong>Verified Junior / Academy Certified</strong>, que te da prioridad de aparición ante los reclutadores.</p>
+            <a class="btn btn--light" href="https://www.webstartedacademy.com/" target="_blank" rel="noopener">Conoce Webstarted Academy <svg class="ico" aria-hidden="true"><use href="#i-external"/></svg></a>
+          </div>
+          <ol class="strip-line">
+            <li><span class="sr" aria-hidden="true"></span><span class="sl">Módulos de preparación</span></li>
+            <li class="xfer"><span class="sr" aria-hidden="true"></span><span class="sl">Insignia Verified Junior / Academy Certified<small>Combinación con Talent Network</small></span></li>
+            <li><span class="sr" aria-hidden="true"></span><span class="sl">Prioridad ante los reclutadores</span></li>
+          </ol>
+        </article>
+
+        <article class="strip" id="comunidad" style="--c:var(--line-community)">
+          <div class="plate">
+            <div class="plate-head"><span class="line-badge" style="--c:#fff;color:var(--line-community)">#W</span><h3>Comunidad #WorkWithWebstarted</h3></div>
+            <p>Historias de contratación en EE.&nbsp;UU., feedback de la cantera y la Academy, y reseñas sobre el proceso de selección. Tú también puedes dejar tu experiencia.</p>
+            <a class="btn btn--light" href="https://www.linkedin.com/feed/hashtag/workwithwebstarted/" target="_blank" rel="noopener">Ver #WorkWithWebstarted <svg class="ico" aria-hidden="true"><use href="#i-external"/></svg></a>
+          </div>
+          <ol class="strip-line">
+            <li><span class="sr" aria-hidden="true"></span><span class="sl">Historias de contratación en EE.&nbsp;UU.</span></li>
+            <li><span class="sr" aria-hidden="true"></span><span class="sl">Feedback de la cantera</span></li>
+            <li><span class="sr" aria-hidden="true"></span><span class="sl">Reseñas del proceso</span></li>
+            <li><span class="sr" aria-hidden="true"></span><span class="sl">Tu experiencia</span></li>
+          </ol>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ VERIFIED PROFILES as transit cards ============ -->
+  <section class="section profiles" aria-labelledby="prof-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="prof-title">Perfiles con prioridad ante los reclutadores</h2>
+        <p>Quienes completan los módulos de la Academy destacan con la insignia y aparecen primero ante los reclutadores de Webstarted.</p>
+      </div>
+      <p class="demo-note cards-note">Perfiles de ejemplo</p>
+      <div class="cards">
+        <article class="tcard is-badged">
+          <header class="tc-band">
+            <svg class="tc-mark" viewBox="-30 -30 230 190" aria-hidden="true"><use href="#logo-mark"/></svg>
+            <span>Talent Network</span>
+          </header>
+          <div class="tc-body">
+            <h3>Camila Rojas</h3>
+            <p class="tc-role">Junior Frontend Developer</p>
+            <ul class="tc-tags"><li class="tag">English B2</li><li class="tag">React · TypeScript</li></ul>
+          </div>
+          <footer class="tc-foot">
+            <span class="stamp"><svg class="ico" aria-hidden="true"><use href="#i-badge"/></svg>Verified Junior / Academy Certified</span>
+            <p>Prioridad de aparición ante los reclutadores de Webstarted.</p>
+          </footer>
+        </article>
+        <article class="tcard is-badged">
+          <header class="tc-band">
+            <svg class="tc-mark" viewBox="-30 -30 230 190" aria-hidden="true"><use href="#logo-mark"/></svg>
+            <span>Talent Network</span>
+          </header>
+          <div class="tc-body">
+            <h3>Mateo Fernández</h3>
+            <p class="tc-role">Junior QA Automation</p>
+            <ul class="tc-tags"><li class="tag">English B2</li><li class="tag">Playwright · Cypress</li></ul>
+          </div>
+          <footer class="tc-foot">
+            <span class="stamp"><svg class="ico" aria-hidden="true"><use href="#i-badge"/></svg>Verified Junior / Academy Certified</span>
+            <p>Prioridad de aparición ante los reclutadores de Webstarted.</p>
+          </footer>
+        </article>
+        <article class="tcard">
+          <header class="tc-band">
+            <svg class="tc-mark" viewBox="-30 -30 230 190" aria-hidden="true"><use href="#logo-mark"/></svg>
+            <span>Talent Network</span>
+          </header>
+          <div class="tc-body">
+            <h3>Lucía Gómez</h3>
+            <p class="tc-role">Semi Senior Backend Developer</p>
+            <ul class="tc-tags"><li class="tag">English C1</li><li class="tag">Go · PostgreSQL</li></ul>
+          </div>
+          <footer class="tc-foot">
+            <span class="stamp stamp--plain"><svg class="ico" aria-hidden="true"><use href="#i-check"/></svg>Perfil verificado</span>
+            <p>Sin insignia de la Academy todavía.</p>
+          </footer>
+        </article>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ============ ACADEMY interchange ============ -->
+  <section class="xfer-plate" aria-labelledby="xfer-title">
+    <div class="wrap xfer-inner">
+      <div class="xfer-badges" aria-hidden="true">
+        <span class="line-badge" style="--c:var(--line-tn)">TN</span>
+        <span class="xfer-link"></span>
+        <span class="line-badge" style="--c:#fff;color:var(--line-academy)">WA</span>
+      </div>
+      <h2 id="xfer-title">¿Estás dudando de cómo va a ser tu entrevista laboral? En WS&nbsp;Academy tenemos la solución, ¡súmate!</h2>
+      <a class="btn btn--light" href="https://www.webstartedacademy.com/" target="_blank" rel="noopener">Ir a Webstarted Academy <svg class="ico arrow" aria-hidden="true"><use href="#i-arrow"/></svg></a>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="footer-line" aria-hidden="true"></div>
+  <div class="wrap top">
+    <a class="brand" href="index.html" aria-label="webstarted Talent Network, inicio">
+      <svg class="brand-mark" viewBox="-30 -30 230 190" aria-hidden="true"><use href="#logo-mark"/></svg>
+      <span class="brand-word">webstarted</span>
+      <span class="brand-sub">Talent<br>Network</span>
+    </a>
+    <nav aria-label="Pie de página">
+      <a href="#vacantes">Búsquedas laborales</a>
+      <a href="#talent-network">Talent Network</a>
+      <a href="#academy">Academy</a>
+      <a href="#comunidad">#WorkWithWebstarted</a>
+    </nav>
+  </div>
+  <div class="bottom">
+    <div class="wrap">
+      <span>Talento IT para startups de EE.&nbsp;UU. · 100% remoto · Pago en USD</span>
+      <nav aria-label="Legal"><a href="#">Términos</a> &nbsp;·&nbsp; <a href="#">Privacidad</a></nav>
+    </div>
+  </div>
+</footer>
+
+<script src="home.js" defer></script>
+</body>
+</html>
