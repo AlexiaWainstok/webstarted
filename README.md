@@ -1,1 +1,1 @@
-Prototipo html en /webstarted/prototype/index.html
+Prototipo html en /webstarted/prototipo/index.html
